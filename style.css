@@ -1,13 +1,13 @@
 body{
     margin-top: 100px;
     margin-bottom: 100px;
-    background: linear-gradientt(90deg, rgb(170, 70, 232) 0%, rgb(253, 160, 29) 50%, rgba(252,176,69,1) 100%);
+   
 }
 
 .APIContainer {
     margin: 50px auto 150px auto;
     padding: 10px 20px 10px 20px;
-    border: 1px solid darkgrey;
+    border: 1px solid rgb(15, 15, 15);
     border-radius: 5px;
     width: 40%;
     min-width: 500px;
@@ -20,7 +20,7 @@ body{
 }
  *{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: rgb(18, 18, 18);
+    color: black;
  }
  .jokeContainer{
     display: flex;
@@ -29,6 +29,7 @@ body{
 
  .jokeTitle{
     margin-left: 10px;
+    color: red;
  }
  #joke{
     margin-left: 10px;
@@ -37,4 +38,14 @@ body{
 
 #buttonGetJoke {
     margin-left: auto;
+    background-color: rgb(15, 15, 15);
+}
+
+#buttonGetJoke:hover{
+     background-color: red;
+     color: white;
+}
+
+#buttonGetJoke:active{
+    background-color: blue;
 }
